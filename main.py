@@ -2,6 +2,8 @@ def main():
     print("Hello world!!!")
     if 5 == 5:
         print(True)
+    for i in range(1, 6):
+        print("Python!")
 
 
 if __name__ == '__main__':
