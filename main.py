@@ -1,3 +1,4 @@
+
 def say_hello(name):
     print(f"Hello {name.upper()}")
 
@@ -15,6 +16,10 @@ def main():
     say_hello("Inna")
     say_hello("Borys")
 
+def check_version(version: str) -> bool:
+    if version != '2.0.2':
+        return True
+    return False
 
 if __name__ == '__main__':
     main()
